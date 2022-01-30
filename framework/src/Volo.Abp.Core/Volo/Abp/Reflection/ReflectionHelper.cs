@@ -126,7 +126,7 @@ public static class ReflectionHelper
     }
 
     /// <summary>
-    /// Gets value of a property by it's full path from given object
+    /// Gets value of a property by its full path from given object
     /// </summary>
     public static object GetValueByPath(object obj, Type objectType, string propertyPath)
     {
@@ -161,7 +161,7 @@ public static class ReflectionHelper
     }
 
     /// <summary>
-    /// Sets value of a property by it's full path on given object
+    /// Sets value of a property by its full path on given object
     /// </summary>
     internal static void SetValueByPath(object obj, Type objectType, string propertyPath, object value)
     {

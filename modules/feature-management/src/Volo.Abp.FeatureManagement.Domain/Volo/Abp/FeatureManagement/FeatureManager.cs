@@ -152,7 +152,7 @@ public class FeatureManager : IFeatureManager, ISingletonDependency
             var fallbackValue = await GetOrNullInternalAsync(name, providers[1].Name, null);
             if (fallbackValue.Value == value)
             {
-                //Clear the value if it's same as it's fallback value
+                //Clear the value if it's same as its fallback value
                 value = null;
             }
         }

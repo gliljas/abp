@@ -29,7 +29,7 @@ public class SettingDefinition
     public string DefaultValue { get; set; }
 
     /// <summary>
-    /// Can clients see this setting and it's value.
+    /// Can clients see this setting and its value.
     /// It maybe dangerous for some settings to be visible to clients (such as an email server password).
     /// Default: false.
     /// </summary>

@@ -45,7 +45,7 @@ public class FeatureDefinition
     public string DefaultValue { get; set; }
 
     /// <summary>
-    /// Can clients see this feature and it's value.
+    /// Can clients see this feature and its value.
     /// Default: true.
     /// </summary>
     public bool IsVisibleToClients { get; set; }

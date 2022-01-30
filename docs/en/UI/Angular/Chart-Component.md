@@ -244,6 +244,6 @@ See the [`chart.js` samples](https://www.chartjs.org/docs/latest/samples) for mo
 | ---------------- | ------------------------------------------------------------------- | ---------- |
 | `refresh`        | Redraws the chart                                                   | -          |
 | `reinit`         | Destroys the chart then creates it again                            | -          |
-| `getBase64Image` | Returns a base 64 encoded string of the chart in it's current state | -          |
+| `getBase64Image` | Returns a base 64 encoded string of the chart in its current state | -          |
 | `generateLegend` | Returns an HTML string of a legend for the chart                    | -          |
 | `getCanvas`      | Returns the canvas HTML element                                     | -          |

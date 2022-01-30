@@ -35,7 +35,7 @@ public static class LockExtensions
     }
 
     /// <summary>
-    /// Executes given <paramref name="func"/> and returns it's value by locking given <paramref name="source"/> object.
+    /// Executes given <paramref name="func"/> and returns its value by locking given <paramref name="source"/> object.
     /// </summary>
     /// <typeparam name="TResult">Return type</typeparam>
     /// <param name="source">Source object (to be locked)</param>
@@ -50,7 +50,7 @@ public static class LockExtensions
     }
 
     /// <summary>
-    /// Executes given <paramref name="func"/> and returns it's value by locking given <paramref name="source"/> object.
+    /// Executes given <paramref name="func"/> and returns its value by locking given <paramref name="source"/> object.
     /// </summary>
     /// <typeparam name="T">Type of the object (to be locked)</typeparam>
     /// <typeparam name="TResult">Return type</typeparam>

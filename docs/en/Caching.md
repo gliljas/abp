@@ -102,7 +102,7 @@ namespace MyProject
 * If the book was not found in the cache, it calls the factory method (`GetBookFromDatabaseAsync` in this case) to retrieve the book item from the original source.
 * `GetOrAddAsync` optionally gets a `DistributedCacheEntryOptions` which can be used to set the lifetime of the cached item.
 
-`IDistributedCache<BookCacheItem>` supports the same methods of the ASP.NET Core's standard `IDistributedCache` interface, so you can refer [it's documentation](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed).
+`IDistributedCache<BookCacheItem>` supports the same methods of the ASP.NET Core's standard `IDistributedCache` interface, so you can refer [its documentation](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed).
 
 ### `IDistributedCache<TCacheItem, TCacheKey>` Interface
 

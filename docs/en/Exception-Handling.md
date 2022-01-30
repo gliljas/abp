@@ -151,7 +151,7 @@ One problem with throwing exceptions is how to localize error messages while sen
 
 ### User Friendly Exception
 
-If an exception implements the `IUserFriendlyException` interface, then ABP does not change it's `Message` and `Details` properties and directly send it to the client.
+If an exception implements the `IUserFriendlyException` interface, then ABP does not change its `Message` and `Details` properties and directly send it to the client.
 
 `UserFriendlyException` class is the built-in implementation of the `IUserFriendlyException` interface. Example usage:
 

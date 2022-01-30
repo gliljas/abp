@@ -653,7 +653,7 @@
 * __HTTP__
 	* Absolute path is a valid request uri ([#1388](https://github.com/PrismJS/prism/issues/1388)) [[`f6e81cb`](https://github.com/PrismJS/prism/commit/f6e81cb)]
 * __Kotlin__
-	* Add keywords of Kotlin and modify it's number pattern. ([#1389](https://github.com/PrismJS/prism/issues/1389)) [[`1bf73b0`](https://github.com/PrismJS/prism/commit/1bf73b0)]
+	* Add keywords of Kotlin and modify its number pattern. ([#1389](https://github.com/PrismJS/prism/issues/1389)) [[`1bf73b0`](https://github.com/PrismJS/prism/commit/1bf73b0)]
 	* Add `typealias` keyword ([#1437](https://github.com/PrismJS/prism/issues/1437)) [[`a21fdee`](https://github.com/PrismJS/prism/commit/a21fdee)]
 * __JavaScript__
 	* Improve Regexp pattern [[`5b043cf`](https://github.com/PrismJS/prism/commit/5b043cf)]

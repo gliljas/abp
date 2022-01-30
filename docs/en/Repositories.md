@@ -46,7 +46,7 @@ namespace Demo
 
 In this example;
 
-* `PersonAppService` simply injects `IRepository<Person, Guid>` in it's constructor.
+* `PersonAppService` simply injects `IRepository<Person, Guid>` in its constructor.
 * `CreateAsync` method uses `InsertAsync` to save the new entity.
 * `GetCountAsync` method gets a filtered count of all people in the database.
 
@@ -70,7 +70,7 @@ Generic Repositories provides some standard CRUD features out of the box:
 
 There are overloads of these methods.
 
-* Provides `UpdateAsync` and `DeleteAsync` methods to update or delete an entity by entity object or it's id.
+* Provides `UpdateAsync` and `DeleteAsync` methods to update or delete an entity by entity object or its id.
 * Provides `DeleteAsync` method to delete multiple entities by a filter.
 
 ### Querying / LINQ over the Repositories
